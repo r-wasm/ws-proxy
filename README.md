@@ -5,7 +5,7 @@ Simple container with SOCKS proxy server running behind sockify, to connect from
 
 ## Test with a public proxy server
 
-Open the WebR test app on https://webr.r-wasm.org/proxy-websockets/ run some code to test:
+Open the WebR test app on https://webr.r-wasm.org/latest/ run some code to test:
 
 
 ```r
@@ -28,10 +28,10 @@ The server `ws.opencpu.org` is running exactly the same service from this contai
 On your local machine start the proxy server with:
 
 ```sh
-docker run -it -p7777:7777 ghcr.io/jeroen/webr-proxy
+docker run -it -p7777:7777 ghcr.io/r-wasm/ws-proxy
 ```
 
-Now open the WebR test app on https://webr.r-wasm.org/proxy-websockets/ run this code to test:
+Now open the WebR test app on https://webr.r-wasm.org/latest/ run this code to test:
 
 ```r
 # Need to use non-https ws:// for local testing
