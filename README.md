@@ -2,6 +2,8 @@
 
 Simple container with SOCKS5 proxy running behind sockify to connect from WebAssembly.
 
+For more details read the blog post [Making libcurl work in webassembly](https://jeroen.github.io/notes/webassembly-curl/).
+
 
 ## Minimal example with a public proxy server
 
