@@ -23,7 +23,7 @@ The server `ws.r-universe.dev` is running exactly the same service from this con
 
 ## Testing many requests in parallel
 
-The following code downloads an PACKAGES index file from CRAN, and then 200 small text files in parallel over HTTP/2 with verbosity turned on.
+The following code downloads a `PACKAGES` index from CRAN, and then 200 small text files in parallel over HTTP/2 with verbosity turned on.
 
 ```r
 # Install the R package
