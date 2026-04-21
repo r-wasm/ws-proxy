@@ -9,6 +9,7 @@
     "test": "node test.js"
   },
   "devDependencies": {
+    "webr": "^0.5.9",
     "wrangler": "^4.84.0"
   }
 }
