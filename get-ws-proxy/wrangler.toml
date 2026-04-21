@@ -1,0 +1,3 @@
+name = "get-ws-proxy"
+main = "src/worker.js"
+compatibility_date = "2025-01-01"

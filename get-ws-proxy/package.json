@@ -1,0 +1,14 @@
+{
+  "name": "get-ws-proxy",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "test": "node test.js"
+  },
+  "devDependencies": {
+    "wrangler": "^4.84.0"
+  }
+}
